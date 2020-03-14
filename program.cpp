@@ -8,6 +8,7 @@ bool validateUrl(string);
 static double version = 1.2;
 int main()
 {
+// this comment servers no purpose	
 	displayVersion(version);
     string url;
 // get url from user
