@@ -1,0 +1,8 @@
+w9output: program.o version.o
+	g++ program.o version.o -o w9output
+
+program.o: program.cpp 
+	g++ -c program.cpp
+
+clean:
+	rm.o w9output
